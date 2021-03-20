@@ -1,0 +1,20 @@
+curl 'https://rocket.chat/api/v1/method.call/ignoreUser' \
+  -H 'authority: rocket.chat' \
+  -H 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"' \
+  -H 'dnt: 1' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'x-auth-token: TOKEN' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-user-id: USER_ID' \
+  -H 'origin: https://rocket.chat' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://rocket.chat/channel/TheLobby' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: rc_uid=USER_ID; rc_token=TOKEN' \
+  --data-raw '{"message":"{\"msg\":\"method\",\"method\":\"ignoreUser\",\"params\":[{\"rid\":\"ayylmao\",\"userId\":\"REPLACE\",\"ignore\":true}],\"id\":\"17\"}"}' \
+  --compressed
