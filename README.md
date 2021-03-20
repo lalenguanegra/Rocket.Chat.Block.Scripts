@@ -1,0 +1,1 @@
+# Rocket.Chat.Block.Scripts
