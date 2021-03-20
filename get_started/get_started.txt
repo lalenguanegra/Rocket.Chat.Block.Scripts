@@ -1,0 +1,7 @@
+paste the cURL command into Lookup/default.txt
+Keep this line the same:
+\"params\":[{\"rid\":\"ayylmao\",\"userId\":\"REPLACE\",
+bash lookup.sh
+Enter a username
+cd ..
+bash begin.sh
