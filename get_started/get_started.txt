@@ -2,7 +2,7 @@ paste the cURL command into Lookup/default.txt
 Keep this line the same:
 \"params\":[{\"rid\":\"ayylmao\",\"userId\":\"REPLACE\",
 place your TOKEN and USER_ID into Lookup/username.sh
-change https://rocket.chat/ to https://chatte.rs
+change https://rocket.chat/ to https://chatte.rs in Lookup/username.sh
 bash lookup.sh
 Enter a username
 cd ..
