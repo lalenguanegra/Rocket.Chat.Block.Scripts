@@ -10,3 +10,5 @@ file="result.txt"
 fname=$(cat "$file") 
 sed -i "s/REPLACE/"$fname"/g" id.txt
 cp 'id.txt' '../default.txt'
+read -rsn1 -p"Press any key to continue";echo
+for i in {1..1}; do cd ..; bash begin.sh; done
