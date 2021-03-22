@@ -5,5 +5,3 @@ place your TOKEN and USER_ID into Lookup/username.sh
 change https://rocket.chat/ to https://chatte.rs in Lookup/username.sh
 bash lookup.sh
 Enter a username
-cd ..
-bash begin.sh
